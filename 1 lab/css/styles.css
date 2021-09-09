@@ -1,0 +1,6 @@
+@import"./normalize.min.css";
+@import"./globals.css";
+@import"./first.css";
+@import "./second.css";
+@import "/css/third.css";
+@import "/css/fourth.css";
