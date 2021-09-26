@@ -1,0 +1,22 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:ital,wght@0,700;1,400&family=Playfair+Display:wght@700&display=swap');
+  
+  html,body{
+    height: 100%;
+    font-family: 'Inter', 'Mulish', 'Playfair Display', sans-serif;
+  }
+  .container{
+    max-width: 1220px;
+    margin: 0px auto;
+    padding: 0px 10px;
+  }
+  @media (max-width: 767px) {
+    .container{
+      max-width: none;
+    }
+  }

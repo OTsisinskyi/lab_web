@@ -1,0 +1,29 @@
+.container__footer{
+  padding-top: 135px;
+  display: flex;
+  justify-content: space-between; 
+ }
+ 
+ .sunny__2020{
+  font-family: Mulish, sans-serif;
+ }
+ 
+ 
+ .long__line{
+  margin-top: 40px;
+  width: 100%;
+ }
+ 
+ .social__networks{
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+ }
+ @media (max-width:490px) {
+   .sunny__2020{
+     margin-left: 350px;
+   }
+   .social__networks{
+    margin-left: 150px;
+   }
+ }
