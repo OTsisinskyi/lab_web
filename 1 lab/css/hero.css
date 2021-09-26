@@ -56,6 +56,15 @@
     border-width: 0;
     color: #FFFFFF;
     font-size: 17px;
+    box-shadow: 0 3px 0px #8c8ea7;
+    transition-duration: 0.5s;
+}
+.hero__button-explore:hover{
+  top: 2px;
+  box-shadow: 0 2px 0px #8c8ea7;
+  background-color: #1ABE84;
+
+
 }
 .hero__image{
     overflow: hidden;

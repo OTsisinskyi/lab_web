@@ -52,11 +52,21 @@
     color: #B8BECD;
     font-size: 16px;
     text-decoration: none;
-    transition: all 0.3s ease 0s;
+    transition-duration: 0.3s;
+}
+.just:hover{
+  font-size: 17px;
+  color: #FB8F1D;
 }
 .home{
     color: #202336;
+    transition-duration: 0.3s;
 }
+.home:hover{
+  color: #1ABE84;
+  font-size: 17px;
+}
+
 .login{
     font-size: 15px;
     font-family: 'Inter', serif;
@@ -66,13 +76,27 @@
     color: #FB8F1D;
     border: 1px solid #FB8F1D;
     border-radius: 8px;
+    transition-duration: 0.5s, 100ms;
+    transition-property: background-color, top;
+    transition-delay: 0s, 0.5s;
 }
+.login:hover{
+  top: 2px;
+  background-color: #1ABE84;
+  color: #fff;
+  border: 1px solid #1ABE84;
+}
+
 .register{
     width: 132px;
     height: 44px;
     background: #FB8F1D;
     border-radius: 8px;
     color: #fff;
+    transition-duration: 0.2s;
+}
+.register:hover{
+  background: #1ABE84;
 }
   
 @media (max-width: 767px) {

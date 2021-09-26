@@ -28,6 +28,11 @@
     font-size: 17px;
     line-height: 60px;
     color: #FB8F1D;
+    transition-duration: 0.5s;
+  }
+  .view__all:hover{
+    font-size: 17.5px;
+    color: #1ABE84;
   }
   
   @media (max-width:554px) {
@@ -52,17 +57,16 @@
     display: flex;
     justify-content: space-between;
   }
-  
-  .photo {
+
+  .photo{
     position: relative;
   }
   
   .photo img{
-    border-radius: 8px;
+    border-radius: 3px;
   }
-  
-   
-  .photo__caption {
+  .photo__caption{
+    display: block;
     font-family: Inter, sans-serif;
     position: absolute;
     color: black;
