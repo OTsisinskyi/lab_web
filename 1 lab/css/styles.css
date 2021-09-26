@@ -1,6 +1,7 @@
-@import"./normalize.min.css";
-@import"./globals.css";
-@import"./first.css";
-@import "./second.css";
-@import "/css/third.css";
-@import "/css/fourth.css";
+@import "/css/globals.css";
+@import "/css/header.css";
+@import "/css/hero.css";
+@import "/css/intro.css";
+@import "/css/future_places.css";
+@import "/css/footer.css";
+/* @import "/css/normalize.min.css"; */

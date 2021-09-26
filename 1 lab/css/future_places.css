@@ -1,0 +1,110 @@
+.future__places-title{
+    padding-top: 163px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .futuared__destination{
+    font-family: Playfair Display, sans-serif;
+    font-weight: bold;
+    width: 481px;
+    height: 50px;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+  }
+  
+  .view__all{
+    width: 64px;
+    height: 60px;
+    padding-top: 10px;
+    
+    font-family: Inter, sans-serif;
+    width: 64px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+  }
+  
+  @media (max-width:554px) {
+    .future__places-title{
+      padding-top: 80px;
+    }
+    .futuared__destination{
+      font-size: 29px;
+      width: 300px;
+    }
+  }
+  @media (max-width:480px) {
+    .future__places-title{
+      display: block;
+    }
+    .view__all{
+      margin-bottom: 20px;
+    }
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photo {
+    position: relative;
+  }
+  
+  .photo img{
+    border-radius: 8px;
+  }
+  
+   
+  .photo__caption {
+    font-family: Inter, sans-serif;
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    border-radius: 0px 6px 0px 0px;
+    left: 0;
+    bottom: 0;
+    height: 56px;
+    width: 110px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+   
+  .photo__caption br {
+    font-size: 17px;
+  }
+   
+  .photo__caption span {
+    color: #042521;
+    font-size: 15px;
+  }
+  @media (max-width: 1100px) {
+    .photos{
+      display: block;
+    }
+    .photo{
+      display: inline-block;
+      width: 45%;
+      margin-left: 3%;
+      margin-bottom: 25px;
+    }
+    
+  }
+  @media (max-width: 600px) {
+    .photo{
+      display: block;
+      margin-left: 28%;
+      
+    }
+    
+  }
+
+
